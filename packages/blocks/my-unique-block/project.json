@@ -1,0 +1,33 @@
+{
+  "name": "blocks-my-unique-block",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/blocks/my-unique-block/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/blocks/my-unique-block",
+        "tsConfig": "packages/blocks/my-unique-block/tsconfig.lib.json",
+        "packageJson": "packages/blocks/my-unique-block/package.json",
+        "main": "packages/blocks/my-unique-block/src/index.ts",
+        "assets": ["packages/blocks/my-unique-block/*.md"],
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "updateBuildableProjectDepsInPackageJson": true
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "packages/blocks/my-unique-block/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  }
+}
