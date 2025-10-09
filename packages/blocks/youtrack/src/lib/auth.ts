@@ -4,7 +4,7 @@ export const youtrackAuth = BlockAuth.SecretAuth({
   displayName: 'API Key',
   required: true,
   authProviderKey: 'youtrack',
-  authProviderDisplayName: 'Youtrack',
+  authProviderDisplayName: 'YouTrack',
   authProviderLogoUrl: 'https://static.openops.com/blocks/youtrack.png',
   description: '',
 });

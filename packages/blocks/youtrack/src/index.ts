@@ -4,7 +4,7 @@ import { BlockCategory } from '@openops/shared';
 import { youtrackAuth } from './lib/auth';
 
 export const youtrack = createBlock({
-  displayName: 'Youtrack',
+  displayName: 'YouTrack',
   auth: youtrackAuth,
   minimumSupportedRelease: '0.20.0',
   logoUrl: 'https://static.openops.com/blocks/youtrack.png',
@@ -17,7 +17,7 @@ export const youtrack = createBlock({
       additionalProps: {
         documentation: Property.MarkDown({
           value:
-            'For more information, visit the [Youtrack API documentation](https://docs.youtrack.com/reference/introduction).',
+            'For more information, visit the [YouTrack API documentation](https://docs.youtrack.com/reference/introduction).',
         }),
       },
     }),

@@ -6,7 +6,7 @@ describe('block declaration tests', () => {
       type: 'SECRET_TEXT',
       required: true,
       authProviderKey: 'youtrack',
-      authProviderDisplayName: 'Youtrack',
+      authProviderDisplayName: 'YouTrack',
       authProviderLogoUrl: 'https://static.openops.com/blocks/youtrack.png',
     });
   });
