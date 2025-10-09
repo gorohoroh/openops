@@ -341,6 +341,7 @@
       "@openops/block-wordpress": ["packages/blocks/wordpress/src/index.ts"],
       "@openops/block-xero": ["packages/blocks/xero/src/index.ts"],
       "@openops/block-xml": ["packages/blocks/xml/src/index.ts"],
+      "@openops/block-youtrack": ["packages/blocks/youtrack/src/index.ts"],
       "@openops/block-youtube": ["packages/blocks/youtube/src/index.ts"],
       "@openops/block-zendesk": ["packages/blocks/zendesk/src/index.ts"],
       "@openops/block-zerobounce": ["packages/blocks/zerobounce/src/index.ts"],
