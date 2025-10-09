@@ -7,7 +7,8 @@ export const youtrack = createBlock({
   displayName: 'YouTrack',
   auth: youtrackAuth,
   minimumSupportedRelease: '0.20.0',
-  logoUrl: 'https://static.openops.com/blocks/youtrack.png',
+  logoUrl:
+    'https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.png',
   authors: [],
   categories: [BlockCategory.FINOPS],
   actions: [
